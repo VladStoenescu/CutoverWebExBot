@@ -57,7 +57,7 @@ function getAnswer(question) {
 
 // Health check endpoint
 app.get('/', (req, res) => {
-  res.send('WebEx Cutover Bot is running!');
+  res.send('Webex Cutover Bot is running!');
 });
 
 // Webhook endpoint for incoming messages
@@ -122,7 +122,7 @@ app.post('/webhook', async (req, res) => {
 
 // Start the server
 app.listen(PORT, async () => {
-  console.log(`WebEx Cutover Bot server listening on port ${PORT}`);
+  console.log(`Webex Cutover Bot server listening on port ${PORT}`);
   
   try {
     // Verify bot credentials

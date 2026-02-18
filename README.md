@@ -1,10 +1,10 @@
 # CutoverWebExBot
 
-A WebEx Bot that answers questions about Cutover - a collaborative platform for managing complex technology operations and migrations.
+A Webex Bot that answers questions about Cutover - a collaborative platform for managing complex technology operations and migrations.
 
 ## Features
 
-- Responds to questions about Cutover in WebEx Teams
+- Responds to questions about Cutover in Webex Teams
 - Easy configuration via environment variables
 - Quick access token updates through .env file
 - Knowledge base covering:
@@ -16,7 +16,7 @@ A WebEx Bot that answers questions about Cutover - a collaborative platform for 
 ## Prerequisites
 
 - Node.js (v14 or higher)
-- A WebEx Bot account and access token
+- A Webex Bot account and access token
 - Public URL for webhooks (use ngrok for local development)
 
 ## Setup
@@ -38,14 +38,14 @@ A WebEx Bot that answers questions about Cutover - a collaborative platform for 
    ```
    
    Edit the `.env` file and set your values:
-   - `WEBEX_BOT_TOKEN`: Your WebEx Bot access token (get it from https://developer.webex.com/my-apps)
+   - `WEBEX_BOT_TOKEN`: Your Webex bot access token (get it from https://developer.webex.com/my-apps)
    - `PORT`: Port for the webhook server (default: 3000)
    - `PUBLIC_URL`: Your public URL for webhooks (e.g., https://your-domain.ngrok.io)
 
-4. **Get your WebEx Bot Token**
+4. **Get your Webex Bot Token**
    - Go to https://developer.webex.com/my-apps
    - Create a new bot or use an existing one
-   - Copy the Bot Access Token
+   - Copy the bot access token
    - Paste it in your `.env` file as `WEBEX_BOT_TOKEN`
 
 5. **Set up a public URL (for local development)**
@@ -72,7 +72,7 @@ The bot will start and display:
 
 ## Setting Up Webhooks
 
-After starting the bot, you need to create a webhook in WebEx:
+After starting the bot, you need to create a webhook in Webex:
 
 1. Go to https://developer.webex.com/docs/api/v1/webhooks/create-a-webhook
 2. Create a webhook with:
@@ -108,7 +108,7 @@ No code changes required!
 
 Once the bot is running and webhooks are configured:
 
-1. Add the bot to a WebEx space
+1. Add the bot to a Webex space
 2. Mention the bot and ask a question:
    - "@BotName what is cutover?"
    - "@BotName what are cutover features?"

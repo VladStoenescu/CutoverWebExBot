@@ -1,0 +1,22 @@
+{
+  "name": "cutover-webex-bot",
+  "version": "1.0.0",
+  "description": "A WebEx Bot that answers questions regarding cutover",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "webex",
+    "bot",
+    "cutover"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.13.5",
+    "dotenv": "^16.0.3"
+  }
+}
